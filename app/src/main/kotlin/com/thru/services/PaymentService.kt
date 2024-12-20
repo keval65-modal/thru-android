@@ -1,8 +1,8 @@
+
 package com.thru.services
 
 class PaymentService {
-    fun processPayment(amount: Double): Boolean {
+    fun processPayment(amount: Double) {
         // Implement payment processing logic
-        return true
     }
 }

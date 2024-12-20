@@ -1,15 +1,10 @@
 package com.thru.services
 
-import com.thru.models.Vendor
+import com.thru.model.Vendor
 
 class VendorService {
-    private val vendors = mutableListOf<Vendor>()
-
     fun getVendors(): List<Vendor> {
-        return vendors
-    }
-
-    fun addVendor(vendor: Vendor) {
-        vendors.add(vendor)
+        // Implement logic to get a list of vendors
+        return emptyList()
     }
 }
